@@ -11,10 +11,15 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Fusion Audio Distribution
 			</title>
-			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
+			<meta name={"description"} content={"A free music distribution service that can deliver in as little as 3 days"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/661c7265e8900d0022f18227/images/fusion%20audio.png?v=2024-04-15T00:52:41.142Z"} type={"image/x-icon"} />
+			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/661c7265e8900d0022f18227/images/fusion%20audio.png?v=2024-04-15T00:52:41.142Z"} />
+			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/661c7265e8900d0022f18227/images/fusion%20audio.png?v=2024-04-15T00:52:41.142Z"} />
+			<link rel={"apple-touch-icon"} sizes={"152x152"} href={"https://uploads.quarkly.io/661c7265e8900d0022f18227/images/fusion%20audio.png?v=2024-04-15T00:52:41.142Z"} />
+			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/661c7265e8900d0022f18227/images/fusion%20audio.png?v=2024-04-15T00:52:41.142Z"} />
+			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/661c7265e8900d0022f18227/images/fusion%20audio.png?v=2024-04-15T00:52:41.142Z"} />
 		</Helmet>
 		<Section sm-padding="8px 0 8px 0" quarkly-title="Header-6" padding="24px 0px 24px 0px" background="#000000">
 			<Override
@@ -79,6 +84,15 @@ export default (() => {
 				md-justify-content="flex-start"
 				md-display="none"
 			>
+				<Button
+					type="link"
+					href="https://ebb.l5.ca/fusionaudiodist"
+					border-color="#01010d"
+					background="#ffffff"
+					color="#000000"
+				>
+					Legacy site
+				</Button>
 				<Button
 					type="link"
 					href="mailto:snowythebudg@gmail.com?Release Submission"
