@@ -265,7 +265,7 @@ export default (() => {
 					sm-font="normal 600 40px/1.2 --fontFamily-sans"
 					lg-text-align="center"
 				>
-					How Fusion Audio Distribution compares to other distributors.
+					How Fusion Audio Distribution compares to other free distributors.
 				</Text>
 				<Text
 					as="p"
@@ -378,6 +378,174 @@ export default (() => {
 				</Box>
 			</List>
 		</Section>
+		<Section padding="90px 0 100px 0" quarkly-title="List-4" background="#000000">
+			<Text
+				margin="0px 0px 90px 0px"
+				text-align="center"
+				font="normal 600 42px/1.2 --fontFamily-sans"
+				md-margin="0px 0px 60px 0px"
+				color="#ffffff"
+			>
+				What to submit in your email.
+			</Text>
+			<Box
+				min-width="100px"
+				min-height="100px"
+				display="grid"
+				grid-template-columns="repeat(3, 1fr)"
+				grid-gap="56px 34px"
+				lg-grid-template-columns="repeat(2, 1fr)"
+				sm-grid-template-columns="1fr"
+				sm-grid-gap="36px 0"
+				md-grid-gap="40px 25px"
+			>
+				<Box min-width="10px" min-height="10px" display="flex">
+					<Text
+						margin="0px 0 0px 0px"
+						display="flex"
+						align-items="center"
+						justify-content="center"
+						font="normal 500 20px/1.2 --fontFamily-sans"
+						background="#cbcfd5"
+						border-radius="50%"
+						width="60px"
+						height="60px"
+						min-width="60px"
+						color="#000000"
+					>
+						1
+					</Text>
+					<Box min-width="10px" min-height="10px" margin="0px 0px 0px 24px">
+						<Text margin="0px 0px 15px 0px" font="normal 500 24px/1.2 --fontFamily-sans" color="#ffffff">
+							Artist and Writer names
+						</Text>
+						<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+							You'll need to add what your artist name and what your writer name is. You'll also need to include whether you have a Spotify or Apple Music artist profile. If you're a new artist, tell us and we can create profiles for you!
+						</Text>
+					</Box>
+				</Box>
+				<Box min-width="10px" min-height="10px" display="flex">
+					<Text
+						margin="0px 0 0px 0px"
+						display="flex"
+						align-items="center"
+						justify-content="center"
+						font="normal 500 20px/1.2 --fontFamily-sans"
+						background="#cbcfd5"
+						border-radius="50%"
+						width="60px"
+						height="60px"
+						min-width="60px"
+					>
+						2
+					</Text>
+					<Box min-width="10px" min-height="10px" margin="0px 0px 0px 24px">
+						<Text margin="0px 0px 15px 0px" font="normal 500 24px/1.2 --fontFamily-sans" color="#ffffff">
+							Release metadata
+						</Text>
+						<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+							This one is pretty self explanatory. You'll need to submit your release name, a track list (EP or Album), and a copy of your album art
+						</Text>
+					</Box>
+				</Box>
+				<Box min-width="10px" min-height="10px" display="flex">
+					<Text
+						margin="0px 0 0px 0px"
+						display="flex"
+						align-items="center"
+						justify-content="center"
+						font="normal 500 20px/1.2 --fontFamily-sans"
+						background="#cbcfd5"
+						border-radius="50%"
+						width="60px"
+						height="60px"
+						min-width="60px"
+					>
+						3
+					</Text>
+					<Box min-width="10px" min-height="10px" margin="0px 0px 0px 24px">
+						<Text margin="0px 0px 15px 0px" font="normal 500 24px/1.2 --fontFamily-sans" color="#ffffff">
+							Copyright information
+						</Text>
+						<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+							If you'd like, you can pick what you'd like to put in the (C) field of your release. the (P) field will automatically default to "Fusion Audio Distribution" and in some special cases, we can change that too!
+						</Text>
+					</Box>
+				</Box>
+				<Box min-width="10px" min-height="10px" display="flex">
+					<Text
+						margin="0px 0 0px 0px"
+						display="flex"
+						align-items="center"
+						justify-content="center"
+						font="normal 500 20px/1.2 --fontFamily-sans"
+						background="#cbcfd5"
+						border-radius="50%"
+						width="60px"
+						height="60px"
+						min-width="60px"
+					>
+						4
+					</Text>
+					<Box min-width="10px" min-height="10px" margin="0px 0px 0px 24px">
+						<Text margin="0px 0px 15px 0px" font="normal 500 24px/1.2 --fontFamily-sans" color="#ffffff">
+							Explicit tracks
+						</Text>
+						<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+							If there are any explicit tracks in your release. Please tell us what they are so we can mark them adequately.{" "}
+						</Text>
+					</Box>
+				</Box>
+				<Box min-width="10px" min-height="10px" display="flex">
+					<Text
+						margin="0px 0 0px 0px"
+						display="flex"
+						align-items="center"
+						justify-content="center"
+						font="normal 500 20px/1.2 --fontFamily-sans"
+						background="#cbcfd5"
+						border-radius="50%"
+						width="60px"
+						height="60px"
+						min-width="60px"
+					>
+						5
+					</Text>
+					<Box min-width="10px" min-height="10px" margin="0px 0px 0px 24px">
+						<Text margin="0px 0px 15px 0px" font="normal 500 24px/1.2 --fontFamily-sans" color="#ffffff">
+							Audio files
+						</Text>
+						<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+							This one is also pretty obvious. Don't forget to submit your audio files! HQ .wav files only.
+						</Text>
+					</Box>
+				</Box>
+				<Box min-width="10px" min-height="10px" display="flex">
+					<Text
+						margin="0px 0 0px 0px"
+						display="flex"
+						align-items="center"
+						justify-content="center"
+						font="normal 500 20px/1.2 --fontFamily-sans"
+						background="#cbcfd5"
+						border-radius="50%"
+						width="60px"
+						height="60px"
+						min-width="60px"
+					>
+						6
+					</Text>
+					<Box min-width="10px" min-height="10px" margin="0px 0px 0px 24px">
+						<Text margin="0px 0px 15px 0px" font="normal 500 24px/1.2 --fontFamily-sans" color="#ffffff">
+							Email address
+						</Text>
+						<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+							We'll need your email address for you to recieve your royalties. You'll also need a minimum balance of 50 euros to withdraw.
+						</Text>
+					</Box>
+				</Box>
+			</Box>
+		</Section>
 		<Section padding="50px 0 50px 0" quarkly-title="Footer-3" color="#000000" background="#000000">
 			<Override slot="SectionContent" sm-align-items="center" />
 			<Box
@@ -433,6 +601,8 @@ export default (() => {
 				© 2024 Fusion Audio Distribution. All rights reserved.
 				<br />
 				Distribution services powered by TunePartner B.V
+				<br />
+				Subdomain provided by FreeDNS
 			</Text>
 		</Section>
 		<Link

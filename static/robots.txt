@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://leafy-truffle-0c7941.netlify.app/sitemap-index.xml
+Sitemap: https://fusion.l5.ca/sitemap-index.xml
