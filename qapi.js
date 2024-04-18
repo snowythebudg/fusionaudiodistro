@@ -6,7 +6,9 @@ export default {
 			"name": "root",
 			"children": [
 				"661c7265e8900d0022f1822c",
-				"661c7265e8900d0022f1822f"
+				"661c7265e8900d0022f1822f",
+				"6620819d1d712a0023330b70",
+				"662082b8f0cb1d0025f49150"
 			]
 		},
 		"661c7265e8900d0022f1822c": {
@@ -25,6 +27,16 @@ export default {
 				"title": "Fusion Audio Distribution",
 				"description": "A free music distribution service that can deliver in as little as 3 days"
 			}
+		},
+		"6620819d1d712a0023330b70": {
+			"id": "6620819d1d712a0023330b70",
+			"pageUrl": "tos",
+			"name": "TOS"
+		},
+		"662082b8f0cb1d0025f49150": {
+			"id": "662082b8f0cb1d0025f49150",
+			"pageUrl": "privacy-policy",
+			"name": "Privacy Policy"
 		}
 	},
 	"mode": "production",

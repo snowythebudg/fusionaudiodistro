@@ -44,7 +44,7 @@ export default (() => {
 					text-align="center"
 					lg-margin="0px 0px 24px 0px"
 				>
-					The Fusion Audio Distribution website is temporarily down.
+					The Fusion Audio Distribution website is temporarily down or you just went to the wrong place
 				</Text>
 			</Box>
 		</Section>

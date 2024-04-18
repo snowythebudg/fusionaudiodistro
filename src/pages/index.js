@@ -163,7 +163,12 @@ export default (() => {
 					<br />
 					<br />
 					<br />
+					<br />
+					Please consider donating to help support Fusion Audio Distribution!
 				</Text>
+				<Components.QuarklycommunityKitPayPalDonateButton business="snowythebudg@gmail.com">
+					<Override slot="Input Button" height="50% content-box" width="145px" />
+				</Components.QuarklycommunityKitPayPalDonateButton>
 			</Section>
 			<Box
 				display="flex"
@@ -1045,6 +1050,7 @@ export default (() => {
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm formName="form1" successMessage="Thanks! We'll get back to you ASAP" errorMessage="We're extremely sorry but there's likely an issue on our end. Try again?" />
+		<Components.QuarklycommunityKitNetlifyForm />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
