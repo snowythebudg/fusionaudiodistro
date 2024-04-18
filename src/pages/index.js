@@ -1,9 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Text, LinkBox, Box, Button, Section, Icon, Strong, Span, List } from "@quarkly/widgets";
+import { Theme, Link, Image, Text, LinkBox, Box, Button, Section, Icon, Strong, Span, List, Input } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
+import * as Components from "components";
 import { MdArrowDownward, MdCheckCircle, MdAttachMoney } from "react-icons/md";
 import { FaInstagram, FaGithub, FaYoutube } from "react-icons/fa";
 export default (() => {
@@ -282,7 +283,7 @@ export default (() => {
 					lg-text-align="center"
 					lg-width="100%"
 				>
-					Fusion Audio Distribution has more features then your regular distributor!
+					Fusion Audio Distribution has more features then your regular free distributor! Scroll down to read the submission requirements and rules, then submit a release!
 				</Text>
 			</Box>
 			<List
@@ -516,7 +517,7 @@ export default (() => {
 							Audio files
 						</Text>
 						<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-							This one is also pretty obvious. Don't forget to submit your audio files! HQ .wav files only.
+							This one is also pretty obvious. Don't forget to submit your audio files! HQ .wav files only. Please submit your audio files to us via a Bandcamp download code or a mega.nz link.
 						</Text>
 					</Box>
 				</Box>
@@ -543,6 +544,401 @@ export default (() => {
 							We'll need your email address for you to recieve your royalties. You'll also need a minimum balance of 50 euros to withdraw.
 						</Text>
 					</Box>
+				</Box>
+			</Box>
+		</Section>
+		<Section padding="120px 0 130px 0" lg-padding="80px 0 90px 0" quarkly-title="Stages/Steps-3" background="#000000">
+			<Text
+				margin="0px 0px 80px 0px"
+				font="--headline2"
+				color="--light"
+				border-color="--color-dark"
+				text-align="center"
+				lg-margin="0px 0px 50px 0px"
+			>
+				Rules to follow when submitting to Fusion Audio Distribution
+			</Text>
+			<Box
+				min-width="100px"
+				min-height="100px"
+				display="grid"
+				grid-template-columns="repeat(3, 1fr)"
+				md-grid-template-columns="1fr"
+				md-grid-template-rows="auto"
+				md-grid-gap={0}
+				padding="0px 50px 0px 50px"
+				lg-padding="0px 0 0px 0"
+			>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					display="flex"
+					lg-padding="0px 25px 26px 25px"
+					flex-direction="column"
+					align-items="center"
+					padding="0px 30px 30px 30px"
+					md-padding="0px 25px 34px 25px"
+					sm-padding="0px 0 34px 0"
+				>
+					<Box
+						min-width="50px"
+						min-height="50px"
+						background="--color-darkL1"
+						display="flex"
+						align-items="center"
+						justify-content="center"
+						width="50px"
+						height="50px"
+						border-radius="50%"
+						margin="0px 0px 30px 0px"
+						color="--darkL2"
+					>
+						<Text margin="0px 0px 0px 0px" color="--light" font="--lead" text-align="center">
+							1
+						</Text>
+					</Box>
+					<Box min-width="100px" min-height="100px" margin="0px 0px 0px 0">
+						<Text
+							margin="0px 0px 15px 0px"
+							border-color="--color-light"
+							color="--light"
+							font="normal 500 22px/1.2 --fontFamily-sans"
+							text-align="center"
+						>
+							Copyright Documents
+						</Text>
+						<Text
+							margin="0px 0px 0px 0px"
+							font="normal 400 16px/1.5 --fontFamily-sansHelvetica"
+							color="#ffffff"
+							text-align="center"
+							border-color="#7a7c7f"
+						>
+							You MUST submit copyright documents prior to submitting a release to Fusion Audio Distribution. Even if you only used a drum loop. Failure to do so will result in you being banned from submitting releases to Fusion Audio Distribution, even if you're a new artist
+						</Text>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					display="flex"
+					lg-padding="0px 25px 26px 25px"
+					flex-direction="column"
+					align-items="center"
+					padding="0px 30px 30px 30px"
+					md-padding="0px 25px 34px 25px"
+					sm-padding="0px 0 34px 0"
+				>
+					<Box
+						min-width="50px"
+						min-height="50px"
+						background="--color-darkL1"
+						display="flex"
+						align-items="center"
+						justify-content="center"
+						width="50px"
+						height="50px"
+						border-radius="50%"
+						margin="0px 0px 30px 0px"
+						color="--darkL2"
+					>
+						<Text margin="0px 0px 0px 0px" color="--light" font="--lead" text-align="center">
+							2
+						</Text>
+					</Box>
+					<Box min-width="100px" min-height="100px" margin="0px 0px 0px 0">
+						<Text
+							margin="0px 0px 15px 0px"
+							border-color="--color-light"
+							color="--light"
+							font="normal 500 22px/1.2 --fontFamily-sans"
+							text-align="center"
+						>
+							AI Policies
+						</Text>
+						<Text
+							margin="0px 0px 0px 0px"
+							font="normal 400 16px/1.5 --fontFamily-sansHelvetica"
+							color="#ffffff"
+							text-align="center"
+							border-color="#7a7c7f"
+						>
+							AI music or vocals are strictly forbidden by Fusion Audio Distribution and will be removed by our quality control team. You will also be banned from the service if AI music or vocals are detected. We are aware that services such as suno.ai can make extremely realistic music with AI, we won't fall for it. We're not that stupid.
+						</Text>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					display="flex"
+					lg-padding="0px 25px 26px 25px"
+					flex-direction="column"
+					align-items="center"
+					padding="0px 30px 30px 30px"
+					md-padding="0px 25px 0 25px"
+					sm-padding="0px 0 0 0"
+				>
+					<Box
+						min-width="50px"
+						min-height="50px"
+						background="--color-darkL1"
+						display="flex"
+						align-items="center"
+						justify-content="center"
+						width="50px"
+						height="50px"
+						border-radius="50%"
+						margin="0px 0px 30px 0px"
+						color="--darkL2"
+					>
+						<Text margin="0px 0px 0px 0px" color="--light" font="--lead" text-align="center">
+							3
+						</Text>
+					</Box>
+					<Box min-width="100px" min-height="100px" margin="0px 0px 0px 0">
+						<Text
+							margin="0px 0px 15px 0px"
+							border-color="--color-light"
+							color="--light"
+							font="normal 500 22px/1.2 --fontFamily-sans"
+							text-align="center"
+						>
+							Free for profit beats/instrumentals
+						</Text>
+						<Text
+							margin="0px 0px 0px 0px"
+							font="normal 400 16px/1.5 --fontFamily-sansHelvetica"
+							color="#ffffff"
+							text-align="center"
+							border-color="#7a7c7f"
+						>
+							Free for profit beats are allowed on Fusion Audio Distribution, all you have to do is add a link to the original beat in your copyright documents
+						</Text>
+					</Box>
+				</Box>
+			</Box>
+		</Section>
+		<Section padding="80px 0 80px 0" position="relative" background="#000000" quarkly-title="Form-4">
+			<Override slot="SectionContent" max-width="1220px" />
+			<Box
+				z-index="1"
+				left="0px"
+				top="0px"
+				right="auto"
+				bottom="auto"
+				position="static"
+				grid-template-columns="repeat(2, 1fr)"
+			>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					display="flex"
+					flex-direction="column"
+					justify-content="center"
+					align-items="center"
+				>
+					<Text
+						lg-padding="0px 0px 0px 0px"
+						sm-font="normal 700 36px/1.2 --fontFamily-sans"
+						margin="0px 0px 18px 0px"
+						font="normal 600 42px/1.2 --fontFamily-sans"
+						color="--light"
+						text-align="center"
+						padding="0px 0 0px 0px"
+						lg-width="100%"
+						lg-margin="0px 0px 25px 0px"
+					>
+						Release submission
+					</Text>
+					<Text
+						margin="0px 0 50px 0px"
+						font="normal 300 16px/1.5 --fontFamily-sansHelvetica"
+						lg-margin="0px 0 50px 0px"
+						text-align="center"
+						display="flex"
+						width="600px"
+						sm-width="auto"
+						md-width="100%"
+						color="#ffffff"
+					>
+						We may recieve a lot of releases, please send your release information here and we'll try our best to get back to you. Remember that we're a limited access distributor!
+					</Text>
+				</Box>
+				<Box
+					position="relative"
+					z-index="1"
+					display="flex"
+					lg-flex-direction="column"
+					flex-direction="column"
+					align-items="center"
+				>
+					<Components.QuarklycommunityKitNetlifyForm
+						lg-margin="0px 0px 35px 0px"
+						sm-margin="0px 0px 25px 0px"
+						sm-width="100%"
+						successMessage="Thanks, we'll get back to you soon! "
+						errorMessage="Unfortunately, we've run across an error. Maybe try again?"
+					>
+						<Box display="flex" lg-flex-wrap="wrap" margin="0px 0px 15px 0px" flex-direction="column">
+							<Box
+								min-width="10px"
+								min-height="10px"
+								display="flex"
+								margin="0px 0px 20px 0px"
+								sm-flex-direction="column"
+								sm-width="100%"
+							>
+								<Box min-width="10px" min-height="10px" margin="0px 15px 0px 0px" sm-margin="0px 0 15px 0px">
+									<Text margin="0px 0px 8px 0px" font="normal 400 16px/1.5 --fontFamily-sans" color="#ffffff">
+										Artist name
+									</Text>
+									<Input
+										margin="0px 10px 0px 0px"
+										padding="12px 16px 12px 16px"
+										width="100%"
+										font="--lead"
+										md-max-width="none"
+										border-radius="8px"
+										name="First Name"
+										type="text"
+										required
+										md-margin="0px 0 16px 0px"
+										background="rgba(255, 255, 255, 0.1)"
+										border-color="--color-lightD2"
+									/>
+								</Box>
+								<Box min-width="10px" min-height="10px">
+									<Text margin="0px 0px 8px 0px" font="normal 400 16px/1.5 --fontFamily-sans" color="#ffffff">
+										Preferred writer name (legal names only)
+									</Text>
+									<Input
+										margin="0px 0 0px 0px"
+										padding="12px 16px 12px 16px"
+										width="100%"
+										font="--lead"
+										md-max-width="none"
+										border-radius="8px"
+										name="Last Name"
+										type="text"
+										required
+										md-margin="0px 0 16px 0px"
+										background="rgba(255, 255, 255, 0.1)"
+										border-color="--color-lightD2"
+									/>
+								</Box>
+							</Box>
+							<Box
+								min-width="10px"
+								min-height="10px"
+								display="flex"
+								margin="0px 0px 0 0px"
+								sm-flex-direction="column"
+								flex-direction="column"
+								sm-width="100%"
+							>
+								<Box
+									min-width="10px"
+									min-height="10px"
+									margin="0px 15px 20px 0px"
+									sm-margin="0px 0 15px 0px"
+									width="100%"
+								>
+									<Text margin="0px 0px 8px 0px" font="normal 400 16px/1.5 --fontFamily-sans" color="#ffffff">
+										Email address
+									</Text>
+									<Input
+										margin="0px 10px 0px 0px"
+										padding="12px 16px 12px 16px"
+										width="100%"
+										font="--lead"
+										md-max-width="none"
+										border-radius="8px"
+										name="Company"
+										type="text"
+										required
+										md-margin="0px 0 16px 0px"
+										background="rgba(255, 255, 255, 0.1)"
+										border-color="--color-lightD2"
+									/>
+								</Box>
+								<Box min-width="10px" min-height="10px" margin="0px 0px 20px 0px" width="100%">
+									<Text margin="0px 0px 8px 0px" font="normal 400 16px/1.5 --fontFamily-sans" color="#ffffff">
+										Release name
+									</Text>
+									<Input
+										margin="0px 0 0px 0px"
+										padding="12px 16px 12px 16px"
+										width="100%"
+										font="--lead"
+										md-max-width="none"
+										border-radius="8px"
+										name="E-mail"
+										type="email"
+										required
+										md-margin="0px 0 16px 0px"
+										background="rgba(255, 255, 255, 0.1)"
+										border-color="--color-lightD2"
+									/>
+								</Box>
+								<Box min-width="10px" min-height="10px" margin="0px 0px 20px 0px" width="100%">
+									<Text margin="0px 0px 8px 0px" font="normal 400 16px/1.5 --fontFamily-sans" color="#ffffff">
+										Preferred (C) and (P) lines{" "}
+									</Text>
+									<Input
+										margin="0px 0 0px 0px"
+										padding="12px 16px 12px 16px"
+										width="100%"
+										font="--lead"
+										md-max-width="none"
+										border-radius="8px"
+										name="Phone number"
+										type="tel"
+										required
+										md-margin="0px 0 16px 0px"
+										background="rgba(255, 255, 255, 0.1)"
+										border-color="--color-lightD2"
+									/>
+								</Box>
+							</Box>
+							<Text margin="0px 0px 8px 0px" font="normal 400 16px/1.5 --fontFamily-sans" color="#ffffff">
+								Other release information (link to audio files and copyright documents, if your songs are explicit, etc)
+							</Text>
+							<Input
+								margin="0px 10px 30px 0px"
+								padding="12px 16px 52px 16px"
+								width="100%"
+								font="--lead"
+								md-max-width="none"
+								border-radius="8px"
+								name="Message"
+								type="text"
+								required
+								background="rgba(255, 255, 255, 0.1)"
+								border-color="--color-lightD2"
+							/>
+							<Button
+								padding="11px 24px 11px 24px"
+								font="normal 400 20px/1.5 --fontFamily-sans"
+								sm-width="100%"
+								focus-box-shadow="none"
+								color="--light"
+								background="#561dc6"
+								border-radius="8px"
+								hover-background="--color-darkL1"
+								hover-color="--light"
+								hover-transition="background-color 0.5s ease 0s"
+								transition="background-color 0.1s ease 0s"
+								margin="0px 0px 15px 0px"
+							>
+								Submit release!
+							</Button>
+							<Box min-width="10px" min-height="10px" display="flex" sm-flex-direction="column">
+								<Text margin="0px 5px 0px 0px" font="normal 400 18px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+									Your data isn't going anywhere, don't worry!
+								</Text>
+							</Box>
+						</Box>
+					</Components.QuarklycommunityKitNetlifyForm>
 				</Box>
 			</Box>
 		</Section>
