@@ -805,6 +805,7 @@ export default (() => {
 										md-margin="0px 0 16px 0px"
 										background="rgba(255, 255, 255, 0.1)"
 										border-color="--color-lightD2"
+										color="#ffffff"
 									/>
 								</Box>
 								<Box min-width="10px" min-height="10px">
@@ -824,6 +825,7 @@ export default (() => {
 										md-margin="0px 0 16px 0px"
 										background="rgba(255, 255, 255, 0.1)"
 										border-color="--color-lightD2"
+										color="#ffffff"
 									/>
 								</Box>
 							</Box>
@@ -859,6 +861,7 @@ export default (() => {
 										md-margin="0px 0 16px 0px"
 										background="rgba(255, 255, 255, 0.1)"
 										border-color="--color-lightD2"
+										color="#ffffff"
 									/>
 								</Box>
 								<Box min-width="10px" min-height="10px" margin="0px 0px 20px 0px" width="100%">
@@ -878,6 +881,7 @@ export default (() => {
 										md-margin="0px 0 16px 0px"
 										background="rgba(255, 255, 255, 0.1)"
 										border-color="--color-lightD2"
+										color="#ffffff"
 									/>
 								</Box>
 								<Box min-width="10px" min-height="10px" margin="0px 0px 20px 0px" width="100%">
@@ -897,6 +901,7 @@ export default (() => {
 										md-margin="0px 0 16px 0px"
 										background="rgba(255, 255, 255, 0.1)"
 										border-color="--color-lightD2"
+										color="#ffffff"
 									/>
 								</Box>
 							</Box>
@@ -915,6 +920,7 @@ export default (() => {
 								required
 								background="rgba(255, 255, 255, 0.1)"
 								border-color="--color-lightD2"
+								color="#ffffff"
 							/>
 							<Button
 								padding="11px 24px 11px 24px"
