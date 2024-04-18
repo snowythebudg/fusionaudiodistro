@@ -1001,6 +1001,15 @@ export default (() => {
 				Subdomain provided by FreeDNS
 			</Text>
 		</Section>
+		<Components.QuarklycommunityKitNetlifyForm />
+		<Components.QuarklycommunityKitMenu />
+		<Components.QuarklycommunityKitMobileSidePanel />
+		<Components.QuarklycommunityKitMenu />
+		<Components.QuarklycommunityKitNetlifyForm display="block" />
+		<Components.QuarklycommunityKitNetlifyForm />
+		<Components.QuarklycommunityKitMenu />
+		<Components.QuarklycommunityKitNetlifyForm />
+		<Components.QuarklycommunityKitNetlifyForm formName="form1" successMessage="Thanks! We'll get back to you ASAP" errorMessage="We're extremely sorry but there's likely an issue on our end. Try again?" />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
