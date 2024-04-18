@@ -138,6 +138,33 @@ export default (() => {
 			color="#ffffff"
 		>
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" sm-min-width="280px" />
+			<Section
+				text-align="center"
+				background-color="--primary"
+				color="--light"
+				padding="80px 0"
+				sm-padding="40px 0"
+				background="#000000"
+			>
+				<Text
+					as="h5"
+					font="--lead"
+					margin="10px 0 0 0"
+					text-transform="uppercase"
+					letter-spacing="5px"
+				>
+					Hold on!
+				</Text>
+				<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+					Before you look around
+				</Text>
+				<Text as="p" font="--lead" margin="40px 0 20px 0">
+					Hey, welcome to the Fusion Audio Distribution website! Before you start, we'd like to give you some information first. To start, this page is a one-pager and as expected, there are no other pages. Second, if you're interested in joining. Please read through each section of this website so you'll know what to submit and what not to do. Lastly, the form at the bottom is a little bit broken. It tends to disappear once submitted, it does work though.
+					<br />
+					<br />
+					<br />
+				</Text>
+			</Section>
 			<Box
 				display="flex"
 				width="40%"
@@ -762,6 +789,9 @@ export default (() => {
 						color="#ffffff"
 					>
 						We may recieve a lot of releases, please send your release information here and we'll try our best to get back to you. Remember that we're a limited access distributor!
+						<br />
+						<br />
+						The form will disappear when you've submitted it, this usually means that it's gone through successfully!
 					</Text>
 				</Box>
 				<Box
@@ -778,7 +808,10 @@ export default (() => {
 						sm-width="100%"
 						successMessage="Thanks, we'll get back to you soon! "
 						errorMessage="Unfortunately, we've run across an error. Maybe try again?"
+						background="#000000"
+						formName="form1"
 					>
+						<Override slot="Form" display="block" />
 						<Box display="flex" lg-flex-wrap="wrap" margin="0px 0px 15px 0px" flex-direction="column">
 							<Box
 								min-width="10px"
@@ -799,7 +832,7 @@ export default (() => {
 										font="--lead"
 										md-max-width="none"
 										border-radius="8px"
-										name="First Name"
+										name="Artist name."
 										type="text"
 										required
 										md-margin="0px 0 16px 0px"
@@ -819,7 +852,7 @@ export default (() => {
 										font="--lead"
 										md-max-width="none"
 										border-radius="8px"
-										name="Last Name"
+										name="Writer name"
 										type="text"
 										required
 										md-margin="0px 0 16px 0px"
@@ -855,8 +888,8 @@ export default (() => {
 										font="--lead"
 										md-max-width="none"
 										border-radius="8px"
-										name="Company"
-										type="text"
+										name="Email"
+										type="email"
 										required
 										md-margin="0px 0 16px 0px"
 										background="rgba(255, 255, 255, 0.1)"
@@ -875,8 +908,8 @@ export default (() => {
 										font="--lead"
 										md-max-width="none"
 										border-radius="8px"
-										name="E-mail"
-										type="email"
+										name="Release name"
+										type="text"
 										required
 										md-margin="0px 0 16px 0px"
 										background="rgba(255, 255, 255, 0.1)"
@@ -895,8 +928,8 @@ export default (() => {
 										font="--lead"
 										md-max-width="none"
 										border-radius="8px"
-										name="Phone number"
-										type="tel"
+										name="(C) lines"
+										type="text"
 										required
 										md-margin="0px 0 16px 0px"
 										background="rgba(255, 255, 255, 0.1)"
@@ -928,7 +961,7 @@ export default (() => {
 								sm-width="100%"
 								focus-box-shadow="none"
 								color="--light"
-								background="#561dc6"
+								background="#f700ff"
 								border-radius="8px"
 								hover-background="--color-darkL1"
 								hover-color="--light"
@@ -1008,12 +1041,8 @@ export default (() => {
 			</Text>
 		</Section>
 		<Components.QuarklycommunityKitNetlifyForm />
-		<Components.QuarklycommunityKitMenu />
-		<Components.QuarklycommunityKitMobileSidePanel />
-		<Components.QuarklycommunityKitMenu />
 		<Components.QuarklycommunityKitNetlifyForm display="block" />
 		<Components.QuarklycommunityKitNetlifyForm />
-		<Components.QuarklycommunityKitMenu />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm formName="form1" successMessage="Thanks! We'll get back to you ASAP" errorMessage="We're extremely sorry but there's likely an issue on our end. Try again?" />
 		<Link
