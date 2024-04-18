@@ -158,17 +158,56 @@ export default (() => {
 				<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
 					Before you look around
 				</Text>
-				<Text as="p" font="--lead" margin="40px 0 20px 0">
-					Hey, welcome to the Fusion Audio Distribution website! Before you start, we'd like to give you some information first. To start, this page is a one-pager and as expected, there are no other pages. Second, if you're interested in joining. Please read through each section of this website so you'll know what to submit and what not to do. Lastly, the form at the bottom is a little bit broken. It tends to disappear once submitted, it does work though.
+				<Text as="p" font="--lead" margin="40px 0 20px 0" color="#ffffff">
+					Hey, welcome to the Fusion Audio Distribution website! Before you start, we'd like to give you some information first. To start, this page is a one-pager and as expected, there are no other pages (except for our TOS and Privacy Policy). Second, if you're interested in joining. Please read through each section of this website so you'll know what to submit and what not to do. Lastly, the form at the bottom is a little bit broken. It tends to disappear once submitted, it does work though. Please review the
+					<Link
+						href="/tos"
+						color="#ff00f6"
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						{" "}Terms of Service
+					</Link>
+					{" "}and the{" "}
+					<Link
+						href="/privacy-policy"
+						link-color="#ee00ee"
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						Privacy Policy
+					</Link>
+					{" "}before submitting. If you need help with anything, click{" "}
+					<Link
+						href="mailto:snowythebudg@gmail.conm?Help Request (Fusion Audio Distribution)"
+						color="#ee00ee"
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						here
+					</Link>
+					{" "}to send us an email!
 					<br />
 					<br />
-					<br />
-					<br />
-					Please consider donating to help support Fusion Audio Distribution!
 				</Text>
-				<Components.QuarklycommunityKitPayPalDonateButton business="snowythebudg@gmail.com">
-					<Override slot="Input Button" height="50% content-box" width="145px" />
-				</Components.QuarklycommunityKitPayPalDonateButton>
 			</Section>
 			<Box
 				display="flex"
@@ -1050,6 +1089,10 @@ export default (() => {
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm formName="form1" successMessage="Thanks! We'll get back to you ASAP" errorMessage="We're extremely sorry but there's likely an issue on our end. Try again?" />
+		<Components.QuarklycommunityKitNetlifyForm />
+		<Components.QuarklycommunityKitNetlifyForm />
+		<Components.QuarklycommunityKitNetlifyForm />
+		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Link
 			font={"--capture"}
