@@ -611,7 +611,7 @@ export default (() => {
 							Email address
 						</Text>
 						<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-							We'll need your email address for you to recieve your royalties. You'll also need a minimum balance of 50 euros to withdraw.
+							We'll need your email address for you to recieve your royalties.{" "}
 						</Text>
 					</Box>
 				</Box>
