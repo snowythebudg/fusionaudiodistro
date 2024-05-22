@@ -15,6 +15,9 @@ export default (() => {
 				Fusion Audio Distribution
 			</title>
 			<meta name={"description"} content={"A free music distribution service that can deliver in as little as 3 days"} />
+			<meta property={"og:title"} content={"Fusion Audio Distribution"} />
+			<meta property={"og:description"} content={"A fast and reliable music distributor for all artists new or experienced. Submit the form to get started on your journey!"} />
+			<meta property={"og:image"} content={"https://uploads.quarkly.io/661c7265e8900d0022f18227/images/android-chrome-512x512.png?v=2024-04-15T02:25:23.709Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/661c7265e8900d0022f18227/images/fusion%20audio.png?v=2024-04-15T00:52:41.142Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/661c7265e8900d0022f18227/images/fusion%20audio.png?v=2024-04-15T00:52:41.142Z"} />
 			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/661c7265e8900d0022f18227/images/fusion%20audio.png?v=2024-04-15T00:52:41.142Z"} />
@@ -88,20 +91,13 @@ export default (() => {
 				<Button
 					type="link"
 					href="https://ebb.l5.ca/fusionaudiodist"
-					border-color="#01010d"
-					background="#ffffff"
-					color="#000000"
+					border-color="#0000ff"
+					background="#000000"
+					color="#ffffff"
+					border-width="2px"
+					border-style="solid"
 				>
 					Legacy site
-				</Button>
-				<Button
-					type="link"
-					href="mailto:snowythebudg@gmail.com?Release Submission"
-					border-color="#01010d"
-					background="#ffffff"
-					color="#000000"
-				>
-					Get in contact!
 				</Button>
 			</Box>
 		</Section>
@@ -404,7 +400,7 @@ export default (() => {
 								user-select="auto"
 								pointer-events="auto"
 							>
-								WIth Fusion Audio Distribution, we can deliver in as fast as two days!
+								WIth Fusion Audio Distribution, we can deliver in 2-7 days!
 							</Span>
 						</Span>
 					</Text>
@@ -458,7 +454,7 @@ export default (() => {
 				md-margin="0px 0px 60px 0px"
 				color="#ffffff"
 			>
-				What to submit in your email.
+				What to submit in the form.
 			</Text>
 			<Box
 				min-width="100px"
@@ -516,7 +512,10 @@ export default (() => {
 							Release metadata
 						</Text>
 						<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-							This one is pretty self explanatory. You'll need to submit your release name, a track list (EP or Album), and a copy of your album art
+							This one is pretty self explanatory. You'll need to submit your release name, a track list (EP or Album), genre, release date, and a copy of your album art{" "}
+							<br />
+							<br />
+							NOTE: make sure to set your release date more than 4 days in advance!
 						</Text>
 					</Box>
 				</Box>
@@ -540,7 +539,7 @@ export default (() => {
 							Copyright information
 						</Text>
 						<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-							If you'd like, you can pick what you'd like to put in the (C) field of your release. the (P) field will automatically default to "Fusion Audio Distribution" and in some special cases, we can change that too!
+							If you'd like, you can pick what you'd like to put in the (C) field of your release. the record label of your release will be set to "Fusion Audio Distribution" but you get to choose your (C) line
 						</Text>
 					</Box>
 				</Box>
@@ -963,7 +962,7 @@ export default (() => {
 								</Box>
 								<Box min-width="10px" min-height="10px" margin="0px 0px 20px 0px" width="100%">
 									<Text margin="0px 0px 8px 0px" font="normal 400 16px/1.5 --fontFamily-sans" color="#ffffff">
-										Preferred (C) and (P) lines{" "}
+										Preferred (C) line{" "}
 									</Text>
 									<Input
 										margin="0px 0 0px 0px"
@@ -983,7 +982,7 @@ export default (() => {
 								</Box>
 							</Box>
 							<Text margin="0px 0px 8px 0px" font="normal 400 16px/1.5 --fontFamily-sans" color="#ffffff">
-								Other release information (link to audio files and copyright documents, if your songs are explicit, etc)
+								Other release information (release date, link to audio files and copyright documents, if your songs are explicit, etc)
 							</Text>
 							<Input
 								margin="0px 10px 30px 0px"
@@ -1077,9 +1076,7 @@ export default (() => {
 				sm-display="flex"
 				sm-flex-wrap="wrap"
 			>
-				© 2024 Fusion Audio Distribution. All rights reserved.
-				<br />
-				Distribution services powered by TunePartner B.V
+				© 2024 Fusion Audio Distribution. All rights reserved
 				<br />
 				Subdomain provided by FreeDNS
 			</Text>

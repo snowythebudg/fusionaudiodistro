@@ -9,9 +9,12 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"privacy-policy"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Fusion Audio Distribution
 			</title>
-			<meta name={"description"} content={"Web site created using quarkly.io"} />
+			<meta name={"description"} content={"A fast and reliable music distributor for all artists new or experienced. Submit the form to get started on your journey!"} />
+			<meta property={"og:title"} content={"Fusion Audio Distribution"} />
+			<meta property={"og:description"} content={"A fast and reliable music distributor for all artists new or experienced. Submit the form to get started on your journey!"} />
+			<meta property={"og:image"} content={"https://uploads.quarkly.io/661c7265e8900d0022f18227/images/android-chrome-512x512.png?v=2024-04-15T02:25:23.709Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" background="--color-dark">
