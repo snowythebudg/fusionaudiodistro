@@ -46,7 +46,10 @@ export default {
 	"mode": "production",
 	"projectType": "gatsby",
 	"site": {
-		"styles": {},
+		"styles": {
+			"transition": "",
+			"transform": "matrix3d(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1)"
+		},
 		"seo": {
 			"title": "Fusion Audio Distribution",
 			"customSitemapDomain": "https://fusion.l5.ca",

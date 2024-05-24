@@ -3,10 +3,22 @@ import { transformVar } from "@quarkly/atomize";
 import { createGlobalStyle } from "styled-components";
 
 const pageStyles = {
-    "404": {},
-    "index": {},
-    "tos": {},
-    "privacy-policy": {}
+    "404": {
+        "transition": "",
+        "transform": "matrix3d(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1)"
+    },
+    "index": {
+        "transition": "",
+        "transform": "matrix3d(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1)"
+    },
+    "tos": {
+        "transition": "",
+        "transform": "matrix3d(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1)"
+    },
+    "privacy-policy": {
+        "transition": "",
+        "transform": "matrix3d(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1)"
+    }
 };
 
 const PageStyles = createGlobalStyle`

@@ -866,6 +866,7 @@ export default (() => {
 						errorMessage="Unfortunately, we've run across an error. Maybe try again?"
 						background="#000000"
 						formName="form1"
+						border-color="#ff8500"
 					>
 						<Override slot="Form" display="block" />
 						<Box display="flex" lg-flex-wrap="wrap" margin="0px 0px 15px 0px" flex-direction="column">
