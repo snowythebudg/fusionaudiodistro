@@ -91,18 +91,21 @@ export default (() => {
 				<Button
 					type="link"
 					href="https://ebb.l5.ca/fusionaudiodist"
-					border-color="#0000ff"
+					border-color="#ff6800"
 					background="#000000"
 					color="#ffffff"
 					border-width="2px"
-					border-style="solid"
+					border-style="dashed"
+					text-decoration-line="initial"
+					width="200px"
+					text-align="center"
 				>
 					Legacy site
 				</Button>
 			</Box>
 		</Section>
 		<Section
-			background="linear-gradient(0deg,rgba(4, 8, 12, 0.6) 0%,rgba(4, 8, 12, 0.6) 100%),--color-darkL2 url(https://images.unsplash.com/photo-1525362081669-2b476bb628c3?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000) center/cover"
+			background="linear-gradient(0deg,rgba(4, 8, 12, 0.6) 0%,rgba(4, 8, 12, 0.6) 100%),--color-darkL2 url(https://images.unsplash.com/photo-1506102383123-c8ef1e872756?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) center/cover"
 			padding="64px 0"
 			sm-padding="40px 0"
 			color="--light"
@@ -132,6 +135,7 @@ export default (() => {
 			quarkly-title="About-14"
 			background="--color-dark"
 			color="#ffffff"
+			display="none"
 		>
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" sm-min-width="280px" />
 			<Section
@@ -287,7 +291,7 @@ export default (() => {
 			min-height="600px"
 			sm-min-height="auto"
 			display="flex"
-			background="--color-dark"
+			background="#000000"
 			quarkly-title="Advantages/Features-6"
 		>
 			<Override
@@ -316,9 +320,18 @@ export default (() => {
 				margin="0px 0px 48px 0px"
 				lg-justify-content="center"
 			>
-				<Text as="p" font="--base" color="--purple" margin="0px 0px 8px 0px">
-					<Strong>
-						Why we're better.
+				<Text as="p" font="--base" color="--orange" margin="0px 0px 8px 0px">
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						Why you should choose us.
 					</Strong>
 				</Text>
 				<Text
@@ -373,7 +386,7 @@ export default (() => {
 						category="md"
 						icon={MdCheckCircle}
 						size="20px"
-						color="--purple"
+						color="--orange"
 						margin="5px 0 0 0"
 					/>
 					<Text padding="0" margin="0" color="--light">
@@ -411,7 +424,7 @@ export default (() => {
 						category="md"
 						icon={MdAttachMoney}
 						size="20px"
-						color="--purple"
+						color="--orange"
 						margin="5px 0 0 0"
 					/>
 					<Text padding="0" margin="0" font="18px/27px --fontFamily-sans" color="--light">
@@ -446,7 +459,7 @@ export default (() => {
 				</Box>
 			</List>
 		</Section>
-		<Section padding="90px 0 100px 0" quarkly-title="List-4" background="#000000">
+		<Section padding="90px 0 100px 0" quarkly-title="List-4" background="#000000 linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%)">
 			<Text
 				margin="0px 0px 90px 0px"
 				text-align="center"
@@ -1004,7 +1017,7 @@ export default (() => {
 								sm-width="100%"
 								focus-box-shadow="none"
 								color="--light"
-								background="#f700ff"
+								background="#ff5500"
 								border-radius="8px"
 								hover-background="--color-darkL1"
 								hover-color="--light"

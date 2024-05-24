@@ -9,9 +9,9 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"404"} />
 		<Helmet>
 			<title>
-				Fusion Audio Distribution
+				404
 			</title>
-			<meta name={"description"} content={"A fast and reliable music distributor for all artists new or experienced. Submit the form to get started on your journey!"} />
+			<meta name={"description"} content={"Oops, please head home!"} />
 			<meta property={"og:title"} content={"Fusion Audio Distribution"} />
 			<meta property={"og:description"} content={"A fast and reliable music distributor for all artists new or experienced. Submit the form to get started on your journey!"} />
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/661c7265e8900d0022f18227/images/android-chrome-512x512.png?v=2024-04-15T02:25:23.709Z"} />
@@ -20,7 +20,7 @@ export default (() => {
 		<Section
 			padding="150px 0 150px 0"
 			min-height="100vh"
-			background="linear-gradient(180deg,--color-light 0%,transparent 86.7%) 0 0 no-repeat,rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1530375323520-248ebdaa967f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0% /cover no-repeat scroll padding-box"
+			background="linear-gradient(180deg,--color-light 0%,transparent 86.7%) 0 0 no-repeat,rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0% /cover no-repeat scroll padding-box"
 			lg-padding="90px 0 90px 0"
 			quarkly-title="404-2"
 		>
@@ -46,6 +46,7 @@ export default (() => {
 					margin="0px 0px 36px 0px"
 					text-align="center"
 					lg-margin="0px 0px 24px 0px"
+					text-shadow="50px 0 20px #fefefe"
 				>
 					The Fusion Audio Distribution website is temporarily down or you just went to the wrong place
 				</Text>

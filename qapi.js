@@ -14,7 +14,11 @@ export default {
 		"661c7265e8900d0022f1822c": {
 			"id": "661c7265e8900d0022f1822c",
 			"name": "404",
-			"pageUrl": "404"
+			"pageUrl": "404",
+			"seo": {
+				"title": "404",
+				"description": "Oops, please head home!"
+			}
 		},
 		"661c7265e8900d0022f1822f": {
 			"id": "661c7265e8900d0022f1822f",

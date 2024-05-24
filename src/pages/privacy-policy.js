@@ -29,7 +29,7 @@ export default (() => {
 				lg-padding="0px 30px 0px 0px"
 				md-padding="0px 0px 0px 0px"
 			>
-				<Text margin="0px 0px 0px 0px" color="--purple" font="--lead" md-margin="0px 0px 20px 0px">
+				<Text margin="0px 0px 0px 0px" color="--orange" font="--lead" md-margin="0px 0px 20px 0px">
 					Privacy Policy
 				</Text>
 			</Box>
