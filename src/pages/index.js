@@ -1,12 +1,11 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Text, LinkBox, Box, Button, Section, Icon, Strong, Span, List, Input } from "@quarkly/widgets";
+import { Theme, Link, Image, Text, LinkBox, Box, Button, Section, Icon, Strong, Span, List } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
 import * as Components from "components";
 import { MdArrowDownward, MdCheckCircle, MdAttachMoney } from "react-icons/md";
-import { FaInstagram, FaGithub, FaYoutube } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -363,7 +362,7 @@ export default (() => {
 					lg-text-align="center"
 					lg-width="100%"
 				>
-					Fusion Audio Distribution has more features then your regular free distributor! Scroll down to read the submission requirements and rules, then submit a release!
+					Fusion Audio Distribution has more features then your regular free distributor! Scroll down to read the submission requirements and rules, then apply!
 				</Text>
 			</Box>
 			<List
@@ -801,300 +800,37 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0" position="relative" background="#000000" quarkly-title="Form-4">
-			<Override slot="SectionContent" max-width="1220px" />
-			<Box
-				z-index="1"
-				left="0px"
-				top="0px"
-				right="auto"
-				bottom="auto"
-				position="static"
-				grid-template-columns="repeat(2, 1fr)"
-			>
-				<Box
-					min-width="100px"
-					min-height="100px"
-					display="flex"
-					flex-direction="column"
-					justify-content="center"
-					align-items="center"
-				>
-					<Text
-						lg-padding="0px 0px 0px 0px"
-						sm-font="normal 700 36px/1.2 --fontFamily-sans"
-						margin="0px 0px 18px 0px"
-						font="normal 600 42px/1.2 --fontFamily-sans"
-						color="--light"
-						text-align="center"
-						padding="0px 0 0px 0px"
-						lg-width="100%"
-						lg-margin="0px 0px 25px 0px"
-					>
-						Release submission
-					</Text>
-					<Text
-						margin="0px 0 50px 0px"
-						font="normal 300 16px/1.5 --fontFamily-sansHelvetica"
-						lg-margin="0px 0 50px 0px"
-						text-align="center"
-						display="flex"
-						width="600px"
-						sm-width="auto"
-						md-width="100%"
-						color="#ffffff"
-					>
-						We may recieve a lot of releases, please send your release information here and we'll try our best to get back to you. Remember that we're a limited access distributor!
-						<br />
-						<br />
-						The form will disappear when you've submitted it, this usually means that it's gone through successfully!
-					</Text>
-				</Box>
-				<Box
-					position="relative"
-					z-index="1"
-					display="flex"
-					lg-flex-direction="column"
-					flex-direction="column"
-					align-items="center"
-				>
-					<Components.QuarklycommunityKitNetlifyForm
-						lg-margin="0px 0px 35px 0px"
-						sm-margin="0px 0px 25px 0px"
-						sm-width="100%"
-						successMessage="Thanks, we'll get back to you soon! "
-						errorMessage="Unfortunately, we've run across an error. Maybe try again?"
-						background="#000000"
-						formName="form1"
-						border-color="#ff8500"
-					>
-						<Override slot="Form" display="block" />
-						<Box display="flex" lg-flex-wrap="wrap" margin="0px 0px 15px 0px" flex-direction="column">
-							<Box
-								min-width="10px"
-								min-height="10px"
-								display="flex"
-								margin="0px 0px 20px 0px"
-								sm-flex-direction="column"
-								sm-width="100%"
-							>
-								<Box min-width="10px" min-height="10px" margin="0px 15px 0px 0px" sm-margin="0px 0 15px 0px">
-									<Text margin="0px 0px 8px 0px" font="normal 400 16px/1.5 --fontFamily-sans" color="#ffffff">
-										Artist name
-									</Text>
-									<Input
-										margin="0px 10px 0px 0px"
-										padding="12px 16px 12px 16px"
-										width="100%"
-										font="--lead"
-										md-max-width="none"
-										border-radius="8px"
-										name="Artist name."
-										type="text"
-										required
-										md-margin="0px 0 16px 0px"
-										background="rgba(255, 255, 255, 0.1)"
-										border-color="--color-lightD2"
-										color="#ffffff"
-									/>
-								</Box>
-								<Box min-width="10px" min-height="10px">
-									<Text margin="0px 0px 8px 0px" font="normal 400 16px/1.5 --fontFamily-sans" color="#ffffff">
-										Preferred writer name (legal names only)
-									</Text>
-									<Input
-										margin="0px 0 0px 0px"
-										padding="12px 16px 12px 16px"
-										width="100%"
-										font="--lead"
-										md-max-width="none"
-										border-radius="8px"
-										name="Writer name"
-										type="text"
-										required
-										md-margin="0px 0 16px 0px"
-										background="rgba(255, 255, 255, 0.1)"
-										border-color="--color-lightD2"
-										color="#ffffff"
-									/>
-								</Box>
-							</Box>
-							<Box
-								min-width="10px"
-								min-height="10px"
-								display="flex"
-								margin="0px 0px 0 0px"
-								sm-flex-direction="column"
-								flex-direction="column"
-								sm-width="100%"
-							>
-								<Box
-									min-width="10px"
-									min-height="10px"
-									margin="0px 15px 20px 0px"
-									sm-margin="0px 0 15px 0px"
-									width="100%"
-								>
-									<Text margin="0px 0px 8px 0px" font="normal 400 16px/1.5 --fontFamily-sans" color="#ffffff">
-										Email address
-									</Text>
-									<Input
-										margin="0px 10px 0px 0px"
-										padding="12px 16px 12px 16px"
-										width="100%"
-										font="--lead"
-										md-max-width="none"
-										border-radius="8px"
-										name="Email"
-										type="email"
-										required
-										md-margin="0px 0 16px 0px"
-										background="rgba(255, 255, 255, 0.1)"
-										border-color="--color-lightD2"
-										color="#ffffff"
-									/>
-								</Box>
-								<Box min-width="10px" min-height="10px" margin="0px 0px 20px 0px" width="100%">
-									<Text margin="0px 0px 8px 0px" font="normal 400 16px/1.5 --fontFamily-sans" color="#ffffff">
-										Release name
-									</Text>
-									<Input
-										margin="0px 0 0px 0px"
-										padding="12px 16px 12px 16px"
-										width="100%"
-										font="--lead"
-										md-max-width="none"
-										border-radius="8px"
-										name="Release name"
-										type="text"
-										required
-										md-margin="0px 0 16px 0px"
-										background="rgba(255, 255, 255, 0.1)"
-										border-color="--color-lightD2"
-										color="#ffffff"
-									/>
-								</Box>
-								<Box min-width="10px" min-height="10px" margin="0px 0px 20px 0px" width="100%">
-									<Text margin="0px 0px 8px 0px" font="normal 400 16px/1.5 --fontFamily-sans" color="#ffffff">
-										Preferred (C) line{" "}
-									</Text>
-									<Input
-										margin="0px 0 0px 0px"
-										padding="12px 16px 12px 16px"
-										width="100%"
-										font="--lead"
-										md-max-width="none"
-										border-radius="8px"
-										name="(C) lines"
-										type="text"
-										required
-										md-margin="0px 0 16px 0px"
-										background="rgba(255, 255, 255, 0.1)"
-										border-color="--color-lightD2"
-										color="#ffffff"
-									/>
-								</Box>
-							</Box>
-							<Text margin="0px 0px 8px 0px" font="normal 400 16px/1.5 --fontFamily-sans" color="#ffffff">
-								Other release information (release date, link to audio files and copyright documents, if your songs are explicit, etc)
-							</Text>
-							<Input
-								margin="0px 10px 30px 0px"
-								padding="12px 16px 52px 16px"
-								width="100%"
-								font="--lead"
-								md-max-width="none"
-								border-radius="8px"
-								name="Message"
-								type="text"
-								required
-								background="rgba(255, 255, 255, 0.1)"
-								border-color="--color-lightD2"
-								color="#ffffff"
-							/>
-							<Button
-								padding="11px 24px 11px 24px"
-								font="normal 400 20px/1.5 --fontFamily-sans"
-								sm-width="100%"
-								focus-box-shadow="none"
-								color="--light"
-								background="#ff5500"
-								border-radius="8px"
-								hover-background="--color-darkL1"
-								hover-color="--light"
-								hover-transition="background-color 0.5s ease 0s"
-								transition="background-color 0.1s ease 0s"
-								margin="0px 0px 15px 0px"
-							>
-								Submit release!
-							</Button>
-							<Box min-width="10px" min-height="10px" display="flex" sm-flex-direction="column">
-								<Text margin="0px 5px 0px 0px" font="normal 400 18px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-									Your data isn't going anywhere, don't worry!
-								</Text>
-							</Box>
-						</Box>
-					</Components.QuarklycommunityKitNetlifyForm>
-				</Box>
-			</Box>
-		</Section>
-		<Section padding="50px 0 50px 0" quarkly-title="Footer-3" color="#000000" background="#000000">
-			<Override slot="SectionContent" sm-align-items="center" />
-			<Box
-				display="flex"
-				grid-template-columns="repeat(5, 1fr)"
-				grid-gap="16px 24px"
-				align-self="center"
-				margin="0px 0px 40px 0px"
-				align-content="center"
-				justify-items="start"
-				text-align="center"
-				color="#ffffff"
-			>
-				<LinkBox href="instagram.com/teaofthetemple">
-					<Icon
-						category="fa"
-						icon={FaInstagram}
-						size="24px"
-						color="#5a5d64"
-						hover-color="--dark"
-						transition="background-color 1s ease 0s"
-					/>
-				</LinkBox>
-				<LinkBox href="github.com/snowythebudg">
-					<Icon
-						category="fa"
-						icon={FaGithub}
-						size="24px"
-						color="#5a5d64"
-						hover-color="--dark"
-						transition="background-color 1s ease 0s"
-					/>
-				</LinkBox>
-				<LinkBox href="https://youtube.com/@mintybudgie">
-					<Icon
-						category="fa"
-						icon={FaYoutube}
-						size="24px"
-						color="#5a5d64"
-						hover-color="--dark"
-						transition="background-color 1s ease 0s"
-					/>
-				</LinkBox>
-			</Box>
+		<Section padding="80px 0" sm-padding="40px 0" background="#000000">
+			<Override slot="SectionContent" align-items="center" />
 			<Text
-				margin="0 0px 0 0px"
-				font="--base"
+				as="h2"
+				font="--headline1"
+				md-font="--headline2"
+				margin="20px 0 0 0"
 				color="#ffffff"
-				text-align="center"
-				sm-display="flex"
-				sm-flex-wrap="wrap"
 			>
-				© 2024 Fusion Audio Distribution. All rights reserved
-				<br />
-				Subdomain provided by FreeDNS
+				Send a demo!
 			</Text>
+			<Text
+				as="p"
+				font="--lead"
+				margin="20px 0 20px 0"
+				text-align="center"
+				color="#ffffff"
+			>
+				To apply to Fusion Audio Distribution, please send us a demo by clicking the button below. We will try and get back to you within a couple of days if you're fit for our distribution services. If you are approved, we will email you with a link to submit releases!
+			</Text>
+			<Button
+				font="--lead"
+				margin="20px"
+				type="button"
+				href="mailto:snowythebudg@gmail.com?Submission for Fusion Audio Distribution"
+				background="#6e00cc"
+			>
+				Send demo!
+			</Button>
 		</Section>
+		<Components.Footer />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm display="block" />
 		<Components.QuarklycommunityKitNetlifyForm />

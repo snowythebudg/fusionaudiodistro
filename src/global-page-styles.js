@@ -18,6 +18,10 @@ const pageStyles = {
     "privacy-policy": {
         "transition": "",
         "transform": "matrix3d(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1)"
+    },
+    "submit-releases": {
+        "transition": "",
+        "transform": "matrix3d(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1)"
     }
 };
 

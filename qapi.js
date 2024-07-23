@@ -8,7 +8,8 @@ export default {
 				"661c7265e8900d0022f1822c",
 				"661c7265e8900d0022f1822f",
 				"6620819d1d712a0023330b70",
-				"662082b8f0cb1d0025f49150"
+				"662082b8f0cb1d0025f49150",
+				"66620fda1d712a00233493da"
 			]
 		},
 		"661c7265e8900d0022f1822c": {
@@ -41,6 +42,11 @@ export default {
 			"id": "662082b8f0cb1d0025f49150",
 			"pageUrl": "privacy-policy",
 			"name": "Privacy Policy"
+		},
+		"66620fda1d712a00233493da": {
+			"id": "66620fda1d712a00233493da",
+			"pageUrl": "submit-releases",
+			"name": "Submit Releases"
 		}
 	},
 	"mode": "production",
