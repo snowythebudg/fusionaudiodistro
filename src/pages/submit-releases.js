@@ -12,7 +12,7 @@ export default (() => {
 			<title>
 				Fusion Audio Distribution
 			</title>
-			<meta name={"description"} content={"A fast and reliable music distributor for all artists new or experienced. Submit the form to get started on your journey!"} />
+			<meta name={"description"} content={"A fast and reliable music distributor for all artists new or experienced. Send a demo now to get started on your journey!"} />
 			<meta property={"og:title"} content={"Fusion Audio Distribution"} />
 			<meta property={"og:description"} content={"A fast and reliable music distributor for all artists new or experienced. Submit the form to get started on your journey!"} />
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/661c7265e8900d0022f18227/images/android-chrome-512x512.png?v=2024-04-15T02:25:23.709Z"} />
@@ -21,7 +21,7 @@ export default (() => {
 		<Components.Submission>
 			<Override slot="text1">
 				<br />
-				First of all, thank you for joining us! You can submit your releases down below and we will submit them for distribution if we approve them.
+				First of all, thank you for joining us! You can submit your releases down below and we will submit them for distribution if we approve them. If you are a member of XZ1 Recordings (label branch of Fusion) then you may use this form for submissions. If you are not a Fusion client and you submit this form, your release will be declined. Please use a Google Drive link for submitting audio files and artwork!
 			</Override>
 		</Components.Submission>
 		<Components.Footer />

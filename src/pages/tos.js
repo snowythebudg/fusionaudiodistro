@@ -11,7 +11,7 @@ export default (() => {
 			<title>
 				Fusion Audio Distribution
 			</title>
-			<meta name={"description"} content={"A fast and reliable music distributor for all artists new or experienced. Submit the form to get started on your journey!"} />
+			<meta name={"description"} content={"A fast and reliable music distributor for all artists new or experienced. Send a demo now to get started on your journey!"} />
 			<meta property={"og:title"} content={"Fusion Audio Distribution"} />
 			<meta property={"og:description"} content={"A fast and reliable music distributor for all artists new or experienced. Submit the form to get started on your journey!"} />
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/661c7265e8900d0022f18227/images/android-chrome-512x512.png?v=2024-04-15T02:25:23.709Z"} />
