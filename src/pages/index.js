@@ -818,7 +818,20 @@ export default (() => {
 				text-align="center"
 				color="#ffffff"
 			>
-				To apply to Fusion Audio Distribution, please send us a demo by clicking the button below. We will try and get back to you within a couple of days if you're fit for our distribution services. If you are approved, we will email you with a link to submit releases!
+				To apply to Fusion Audio Distribution, please send us a demo by clicking the button below. We will try and get back to you within a couple of days if you're fit for our distribution services. If you are approved, we will send you an email and you can head to the{" "}
+				<Link
+					href="/submit-releases"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					submission
+				</Link>
 			</Text>
 			<Button
 				font="--lead"
