@@ -843,7 +843,6 @@ export default (() => {
 				Send demo!
 			</Button>
 		</Section>
-		<Components.Footer />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm display="block" />
 		<Components.QuarklycommunityKitNetlifyForm />
@@ -854,6 +853,7 @@ export default (() => {
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
+		<Components.Footer />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
