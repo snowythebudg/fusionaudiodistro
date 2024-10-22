@@ -285,6 +285,47 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section
+			text-align="center"
+			background-color="--primary"
+			color="--light"
+			padding="80px 0"
+			sm-padding="40px 0"
+			background="#000000"
+		>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				important announcement
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				Limited Operations
+			</Text>
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				Fusion Audio Distribution is currently operating on a limited release basis. If you need priority distribution. Please send a demo to our record label,{" "}
+				<Link
+					href="xz1label.l5.ca"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					XZ1 Recordings
+				</Link>
+				. If you would like your release to be taken down, please email{" "}
+				<Link href="mailto:snowythebudg@gmail.com?Release takedown (Fusion)">
+					here
+				</Link>
+			</Text>
+		</Section>
+		<Section
 			padding="60px 0 90px 0"
 			sm-padding="60px 0 60px 0"
 			min-height="600px"
