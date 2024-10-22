@@ -316,6 +316,7 @@ export default (() => {
 					hyphens="manual"
 					user-select="auto"
 					pointer-events="auto"
+					target="_blank"
 				>
 					XZ1 Recordings
 				</Link>
