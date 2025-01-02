@@ -895,7 +895,13 @@ export default (() => {
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
-		<Components.Footer />
+		<Components.Footer>
+			<Override slot="text">
+				© 2024-2025 Fusion Audio Distribution. All rights reserved
+				<br />
+				Subdomain provided by FreeDNS
+			</Override>
+		</Components.Footer>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
