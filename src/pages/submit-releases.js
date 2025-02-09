@@ -20,11 +20,17 @@ export default (() => {
 		</Helmet>
 		<Components.Submission>
 			<Override slot="text1">
-				<br />
-				First of all, thank you for joining us! You can submit your releases down below and we will submit them for distribution if we approve them. If you are a member of XZ1 Recordings (label branch of Fusion) then you may use this form for submissions. If you are not a Fusion client and you submit this form, your release will be declined. Please use a Google Drive link for submitting audio files and artwork!
+				Fusion Audio Distribution is no longer accepting releases. All submissions through this form will be rejected and/or transferred to XZ1 Recordings (only by request)
 			</Override>
+			<Override slot="button" background="#4c00ff" />
 		</Components.Submission>
-		<Components.Footer />
+		<Components.Footer>
+			<Override slot="text">
+				© 2024-2025 Fusion Audio Distribution. All rights reserved
+				<br />
+				Subdomain provided by FreeDNS
+			</Override>
+		</Components.Footer>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

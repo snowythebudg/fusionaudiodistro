@@ -90,7 +90,7 @@ export default (() => {
 				<Button
 					type="link"
 					href="https://ebb.l5.ca/fusionaudiodist"
-					border-color="#ff6800"
+					border-color="#6800ff"
 					background="#000000"
 					color="#ffffff"
 					border-width="2px"
@@ -104,7 +104,7 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section
-			background="linear-gradient(0deg,rgba(4, 8, 12, 0.6) 0%,rgba(4, 8, 12, 0.6) 100%),--color-darkL2 url(https://images.unsplash.com/photo-1506102383123-c8ef1e872756?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) center/cover"
+			background="linear-gradient(0deg,rgba(4, 8, 12, 0.6) 0%,rgba(4, 8, 12, 0.6) 100%),--color-darkL2 url(https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) center/cover"
 			padding="64px 0"
 			sm-padding="40px 0"
 			color="--light"
@@ -305,7 +305,7 @@ export default (() => {
 				Limited Operations
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				Fusion Audio Distribution is currently operating on a limited release basis. If you need priority distribution. Please send a demo to our record label,{" "}
+				Fusion Audio Distribution is no longer accepting releases. If you need music distribution. Please send a demo to our record label,{" "}
 				<Link
 					href="xz1label.l5.ca"
 					overflow-wrap="normal"
@@ -320,10 +320,21 @@ export default (() => {
 				>
 					XZ1 Recordings
 				</Link>
-				. If you would like your release to be taken down, please email{" "}
-				<Link href="mailto:snowythebudg@gmail.com?Release takedown (Fusion)">
+				. If you have already released through Fusion and would like your current release to be taken down or transferred to XZ1 Recordings, please email{" "}
+				<Link
+					href="mailto:snowythebudg@gmail.com?Release takedown (Fusion)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
 					here
 				</Link>
+				. Transferring or taking down a Fusion release is not mandatory but it'd be preferred.
 			</Text>
 		</Section>
 		<Section
@@ -361,7 +372,7 @@ export default (() => {
 				margin="0px 0px 48px 0px"
 				lg-justify-content="center"
 			>
-				<Text as="p" font="--base" color="--orange" margin="0px 0px 8px 0px">
+				<Text as="p" font="--base" color="--indigo" margin="0px 0px 8px 0px">
 					<Strong
 						overflow-wrap="normal"
 						word-break="normal"
@@ -427,7 +438,7 @@ export default (() => {
 						category="md"
 						icon={MdCheckCircle}
 						size="20px"
-						color="--orange"
+						color="--indigo"
 						margin="5px 0 0 0"
 					/>
 					<Text padding="0" margin="0" color="--light">
@@ -465,7 +476,7 @@ export default (() => {
 						category="md"
 						icon={MdAttachMoney}
 						size="20px"
-						color="--orange"
+						color="--indigo"
 						margin="5px 0 0 0"
 					/>
 					<Text padding="0" margin="0" font="18px/27px --fontFamily-sans" color="--light">
@@ -860,30 +871,12 @@ export default (() => {
 				text-align="center"
 				color="#ffffff"
 			>
-				To apply to Fusion Audio Distribution, please send us a demo by clicking the button below. We will try and get back to you within a couple of days if you're fit for our distribution services. If you are approved, we will send you an email and you can head to the{" "}
-				<Link
-					href="/submit-releases"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					submission
+				Fusion Audio Distribution is no longer accepting demos or release submissions, emails regarding Fusion demos will be ignored. Please send a demo to our team at XZ1 Recordings (
+				<Link href="#">
+					https://xzone.64-b.it
 				</Link>
+				)
 			</Text>
-			<Button
-				font="--lead"
-				margin="20px"
-				type="button"
-				href="mailto:snowythebudg@gmail.com?Submission for Fusion Audio Distribution"
-				background="#6e00cc"
-			>
-				Send demo!
-			</Button>
 		</Section>
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm display="block" />
