@@ -302,7 +302,7 @@ export default (() => {
 				important announcement
 			</Text>
 			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				Limited Operations
+				Fusion is now closed
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
 				Fusion Audio Distribution is no longer accepting releases. If you need music distribution. Please send a demo to our record label,{" "}
@@ -334,7 +334,10 @@ export default (() => {
 				>
 					here
 				</Link>
-				. Transferring or taking down a Fusion release is not mandatory but it'd be preferred.
+				. Transferring or taking down a Fusion release is not mandatory but it'd be preferred. If you were a Fusion client, thank you so much. XZ1 Recordings does have it's own distribution service now which can be accessed{" "}
+				<Link href="https://distro.xz1recordings.ca">
+					here
+				</Link>
 			</Text>
 		</Section>
 		<Section
