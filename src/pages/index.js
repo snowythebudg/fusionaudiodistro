@@ -875,8 +875,8 @@ export default (() => {
 				color="#ffffff"
 			>
 				Fusion Audio Distribution is no longer accepting demos or release submissions, emails regarding Fusion demos will be ignored. Please send a demo to our team at XZ1 Recordings (
-				<Link href="#">
-					https://xzone.64-b.it
+				<Link href="https://xz1recordings.ca">
+					https://xz1recordings.ca
 				</Link>
 				)
 			</Text>
